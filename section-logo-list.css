@@ -1,0 +1,90 @@
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.logo-list__text__container {
+  display: grid;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 1.75rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  line-height: 3.12rem;
+  font-weight: 700;
+}
+
+.section-paragraph {
+  font-size: 1.7rem;
+  line-height: 2.21rem;
+  font-weight: 500;
+}
+
+.logo-slide__image__container,
+.logo-slide__svg__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.logo-slide__image,
+.logo-slide__placeholder__svg {
+  width: 6.4rem;
+  height: 6.4rem;
+  object-fit: cover;
+}
+
+.logo-slide__svg__container svg {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+.logo-slide__title {
+  font-size: 1.8rem;
+  line-height: 2.21rem;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 1.25rem;
+}
+
+@media only screen and (min-width: 750px) {
+  .logo-list__text__container {
+    padding-bottom: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  .section-paragraph {
+    font-size: 1.9rem;
+  }
+
+  .logo-slide__image,
+  .logo-slide__placeholder__svg {
+    width: 12.8rem;
+    height: 12.8rem;
+  }
+
+  .logo-slide__svg__container svg {
+    width: 12.8rem;
+    height: 12.8rem;
+  }
+
+  .logo-slide__title {
+    font-size: 1.9rem;
+    padding-top: 1.5rem;
+  }
+}
